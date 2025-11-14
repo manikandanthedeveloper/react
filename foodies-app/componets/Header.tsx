@@ -23,7 +23,6 @@ function Header() {
                     <Nav className="me-auto">
                         <Nav.Link as={Link} href="/" className={path == '/' ? "active" : undefined}>Home</Nav.Link>
                         <Nav.Link as={Link} href="/meals" className={path.startsWith('/meals') ? "active" : undefined}>Meals</Nav.Link>
-                        <Nav.Link as={Link} href="/meals/share">Share</Nav.Link>
                         <Nav.Link as={Link} href="/community" className={path.startsWith('/community') ? "active" : undefined}>Foddies Community</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
