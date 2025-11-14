@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "@/componets/Header";
+import './globals.css';
 
 export const metadata: Metadata = {
   title: "Foodies App",

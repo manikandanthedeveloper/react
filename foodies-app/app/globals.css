@@ -1,0 +1,32 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.error-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.error-code {
+    font-size: 120px;
+    font-weight: 800;
+    color: #dc3545;
+    line-height: 1;
+}
+
+.error-message {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.error-description {
+    font-size: 16px;
+    color: #6c757d;
+    margin-bottom: 30px;
+}
