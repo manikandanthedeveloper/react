@@ -1,8 +1,8 @@
 export interface Product {
-	id: string;
+	id: number; // SQLite usually uses INTEGER
 	title: string;
 	slug: string;
-	image: string;
+	image: string; // make this required for <Image src={image} />
 	summary: string;
 	instructions: string;
 	creator: string;
